@@ -1,0 +1,475 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background: linear-gradient(45deg, #7a56fd, #4a8aff, #9a4cff);
+    background-size: 400%;
+    animation: gradient 5s infinite;
+
+}
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }     
+}
+
+
+.headerr{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    height: 100px;
+}
+.panel{
+    width: 250px;
+}
+.panel a {
+    text-decoration: none;
+    color:#424242;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.panel a:hover{
+    font-size: 22px;
+    color:#fff;
+    text-shadow: 0 0 5px #efff16,
+                0 0 25px #efff16,
+                0 0 50px #efff16,
+                0 0 100px #efff16;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    text-shadow: 0 0 5px #c910c0,
+                0 0 25px #c910c0,
+                0 0 50px #c910c0,
+                0 0 100px #c910c0;
+    
+}
+.logo p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    text-shadow: 0 0 5px #d341cc,
+                0 0 25px #d341cc,
+                0 0 50px #d341cc,
+                0 0 100px #d341cc;
+}
+
+
+    /*Связь или connection*/
+
+    .connection{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 200px;
+    }
+
+.connection a,i{
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #424242;   
+    transition: .5s;
+}
+
+.whatsapp:hover{ 
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 0 0 5px #16c910,
+                0 0 25px #16c910,
+                0 0 50px #16c910,
+                0 0 100px #16c910;
+}
+.whatsapp:hover i{ 
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 0 0 5px #16c910,
+                0 0 25px #16c910,
+                0 0 50px #16c910,
+                0 0 100px #16c910;
+}
+
+
+.instagram:hover{
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 0 0 5px #df6016,
+                0 0 25px #df6016,
+                0 0 50px #df6016,
+                0 0 100px #df6016;
+}
+.instagram:hover i{
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 0 0 5px #df6016,
+                0 0 25px #df6016,
+                0 0 50px #df6016,
+                0 0 100px #df6016;
+}
+
+
+.telegram:hover{
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+.telegram:hover i{
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+
+
+
+
+/*main*/
+
+.background{
+    height: 880px;
+    background-image: url(../img/vyshivalnaya_mashina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+.authorization{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    background: #ffffff00;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(45deg, #7a56fd, #4a8aff, #9a4cff);
+    background-size: 400%;
+    animation: gradient 5s infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 80%;
+    border-radius: 40px;
+
+}
+
+.authorization input{
+    background-color: #0000005e;
+    width: 350px;
+    height: 30px;
+}
+
+.authorization p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.input1{
+    position: absolute;
+    top: 240px;
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+.input2{
+    position: absolute;
+    top: 280px;
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+.authorization button{
+    background-color: #0000005e;
+    border: none;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    top: 350px;
+    font-size: 20px;
+    border-radius: 20px;
+    color:#fff;
+    text-shadow: 0 0 5px #16c910,
+                0 0 25px #16c910,
+                0 0 50px #16c910,
+                0 0 100px #16c910;
+}
+
+.authorization button:hover{
+    font-size: 22px;
+}
+
+.authorization h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+}
+
+.authorization p{
+    position: absolute;
+    top: 200px;
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+main{
+    background: linear-gradient(180deg, #dfd6ff, #f7ecff, #ece4fd);
+
+}
+/*Карточки*/
+
+.zgl h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+    margin-top: 55px;
+    font-size: 25px;
+}
+
+.tho-my-mojem{
+    width: 1220px;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card{
+    width: 300px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.text-izobr{
+    text-align: center;
+}
+
+.text-izobr p{
+    font-size: 24px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img-top{
+    align-items: center;
+    width: 294px;
+}
+
+.image{
+    width: 1310px;
+    margin: 0 auto;
+    }
+
+.image img{
+    width:400px;
+    height:400px;
+   margin: 0 auto;
+   margin: 5px;
+}
+
+.nathi-work h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 25px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dogovor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dogovor p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.dogovor a{
+    text-decoration: none;
+    color: #e00d73;
+    font-size: 28px;
+}
+
+.containner-nomber{
+    margin: 0 auto;
+    width:1310px;
+}
+
+.nomber i{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+     margin: 0 auto;
+}
+
+.nomber{
+    width: 70px;
+    height: 100px;
+    border: 4px solid;
+    border-image-source: linear-gradient(-45deg, #fc1ba6, #4094f6);
+    border-image-slice:1 ;
+    display: flex;
+    align-items: center;
+    
+      
+}
+
+
+.frt h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+    margin-top: 55px;
+    font-size: 25px;
+}
+
+.frt{
+    align-items: center;
+}
+
+footer{
+    background-color:  #ece4fd;
+    height: 200px;
+   /* background: linear-gradient(45deg, #7a56fd, #4a8aff, #9a4cff);
+    animation: gradient 5s infinite;*/
+}
+
+.niz-ssilci{
+display: flex;
+flex-direction: column;
+}
+
+
+
+.logo-niz {
+    margin-left: 30px;
+}
+
+.logo-niz h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    text-shadow: 0 0 5px #c910c0,
+                0 0 25px #c910c0,
+                0 0 50px #c910c0,
+                0 0 100px #c910c0;
+                
+}
+
+.niz-ssilci{
+    align-items: center;
+    padding-top: 40px;
+}
+
+.niz-ssilci a {
+    text-decoration: none;
+    color:#424242;
+    font-size: 20px;
+       
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.niz-ssilci .ds{
+    padding-left: 23px;
+    width: 150px; 
+    margin-top: 5px;
+}
+
+.niz-ssilci .as {
+    width: 70px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.niz-ssilci p {
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 15px;
+margin-top: 5px;
+}
+
+
+
+.niz-ssilci a:hover{
+    color:#fff;
+    text-shadow: 0 0 5px #efff16,
+                0 0 25px #efff16,
+                0 0 50px #efff16,
+                0 0 100px #efff16;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
