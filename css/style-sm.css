@@ -11,15 +11,15 @@
 
 
 .containner-nomber{
-    width: 356px;
+    width: 340px;
 }
 
 .containner-nomber i {
-
     font-size: 24px;
-
 }
-
+.containner-nomber p {
+    font-size: 16px;
+}
 
 .nomber{
     width: 25px;
@@ -27,17 +27,29 @@
     border: 3px solid;
     border-image-source: linear-gradient(-45deg, #fc1ba6, #4094f6);
     border-image-slice:1 ;
+}
 
-    
-      
+.card-img-top{
+    width: 142px;
+}
+
+
+.card{
+    width: 138px;
+}
+
+.image img{
+    width:152px;
+    height:152px;
+
 }
 
 .tho-my-mojem{
-    width: 356px;
+    width: 340px;
 }
 
 .image{
-    width: 356px;
+    width: 340px;
 }
 
 .containner-nomber p{
@@ -54,7 +66,7 @@
 
 
 .authorization{
-    right: 40px;
+    right: 30px;
     top: 50px;
     width: 300px;
     height: 340px;
