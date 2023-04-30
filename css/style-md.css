@@ -20,7 +20,7 @@
 }
 
 .text-izobr p{
-    font-size: 17px; 
+    font-size: 18px; 
 }
 
 .card-img-top{
@@ -90,7 +90,11 @@
 }
 
 .containner-nomber p{
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.containner-nomber a{
+    font-size: 20px;
 }
 
 .containner-nomber{
@@ -109,18 +113,12 @@
     height: 60px;
     border: 3px solid;
     border-image-source: linear-gradient(-45deg, #fc1ba6, #4094f6);
-    border-image-slice:1 ;
-    display: flex;
-    align-items: center;
-    
-      
+    border-image-slice: 1;  
 }
 
 .frt h2{
     font-size: 18px;
 }
-
-
 
 .authorization{
     position: absolute;
